@@ -5,6 +5,14 @@ html{
     font-family: Montserrat,Helvetica,Arial,sans-serif;
 	
 }
+
+::selection {
+  background: rgba(255, 255, 255, 0.4); 
+}
+::-moz-selection {
+  background: rgba(255, 255, 255, 0.4); 
+}
+
 * {
     box-sizing: border-box;
 }
