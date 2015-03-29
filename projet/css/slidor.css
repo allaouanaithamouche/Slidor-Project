@@ -95,7 +95,8 @@ header .navbar{
 		font-size : 13px;
 	  font-weight: 400;
 }
-.navbar .nav li a .glyphicon{
+
+.navbar .nav li a {
 		color:white;
 }
 .navbar .nav a::hover{
@@ -107,11 +108,7 @@ header .navbar{
 .navbar .nav li a .glyphicon:hover, .navbar .nav li a .glyphicon.active {
    color: #f17e58;
 } 
- a:link{
-	color : white;
-	text-decoration:none;
-	 
-}
+
 
 .btn:after {
 	content: '';
@@ -169,8 +166,14 @@ header .navbar{
 margin-right: 70%;
 margin-left:0px;
 margin-top:20px;
-text-align: center;	
+text-align: center;
 }
+
+.prod-box .btn a{
+text-decoration:none;
+color: white;
+}
+
 .hvr-underline-from-center {
 display: inline-block;
 vertical-align: middle;
@@ -205,23 +208,27 @@ right: 0;
 
 footer {
 	position: fixed;
-    bottom: 0;
     height: 10%;
+		bottom :0;
     width: 100%;
     font-family: Montserrat,sans-serif;
 }
 footer img{
     height: 20px;
+		width: 60px;
 }
 
-footer .maxcontainer span {
+footer .navbar-right  span {
 	  display: inline-block;
-    margin-top: 13%;
-		padding-right:10%;
+		padding: 0;
+		padding-right:8px;
 }
-footer .maxcontainer span a{
+footer .navbar-right span a{
     font-size: 80%;
+		text-decoration :none;
+		color :white;
 }
-.maxcontainer.navbar-right {
+footer .navbar-right {
+			margin-top: 3%;
 	    margin-right: 10%;
 }
