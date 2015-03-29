@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Slidor - Projet</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/slidor.css" rel="stylesheet">
+</head>
+
+<body>
+	<header>
+		<div class="container-fluid maxcontainer ">
+			<button class="navbar-toggle" data-toggle="collapse" data-target="#liens">
+				<span class="glyphicon glyphicon-align-justify"></span>
+			</button>
+			<nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+					<div id="menu" >
+						<div class="navbar-header">
+							<button id="logo" type="button" class="btn btn-default btn-circle btn-x"><img src='img/logo-arrow.svg' /></button>
+						</div>
+					<!-- Collect the nav links, forms, and other content for toggling -->
+						<div id="liens" class=" navbar-collapse navbar-right navbar-main-collapse">
+							<ul class="nav navbar-nav">
+								<!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+								<li class="hidden">
+									<a href="#page-top"></a>
+								</li>
+								<li class="nav-effect">
+									<a class="hvr-underline-from-center" href="Production">PRODUCTIONS</a>
+								</li>
+								<li class="nav-effect">
+									<a class="hvr-underline-from-center" href="Agence">AGENCE</a>
+								</li>
+								<li class="nav-effect">
+									<a class="hvr-underline-from-center" href="Studycase">ETUDE DE CAS</a>
+								</li>
+								<li class="nav-effect">
+									<a class="hvr-underline-from-center" href="Contact.html">CONTACT</a>
+								</li>
+								<li class="nav-effect">
+									<a class=".hvr-underline-from-center" data-toggle="modal" data-target="#info-modal"><span class=" glyphicon glyphicon-earphone" ></span></a>
+								</li>
+							</ul>
+						</div>
+					<!-- /.navbar-collapse -->
+				</div>
+				<!-- /.container -->
+			</nav>
+		</div>
+	</header>
+    <section >
+            <div class="container">
+					<div class="row">
+                    	<div class="col-md-12 maxcontainer">
+							<div id="contenu">
+								<h1 class="brand-heading">Nous <span>transformons</span><br/> vos <span> PowerPoint</span></h1>
+								<h2 class="intro-text">Slidor est une agence PowerPoint. Nous repensons la mise en forme de vos présentations pour améliorer l’impact de votre message.</h2>
+							</div>
+							<div class='prod-box'>
+								<button class='btn btn-1 btn-1c'>
+									<a href="/" >Nos production</a>
+								</button>
+							</div>
+                    	</div>
+					</div>
+                </div>
+<!--Modal-->
+<div class="modal fade" id="info-modal" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-body text-center">
+        <h3>+33 1 81 72 01 70</h3>
+          <span class="phoneInfo">(Entre 9h et 22h, 7 jours / 7)</span>
+      </div>
+    </div>
+  </div>
+</div>	
+    </section>
+		<footer>
+			<div id="bas-page" class="container-fluid maxcontainer navbar-right">
+				<span><a href="http://www.slidor.fr"><img src="img/logo-slidor-g.svg"/></a></span>
+				<span class="footer-span"><a class="hvr-underline-from-center" href="/">FR</a></span>
+				<span class="footer-span"><a class="hvr-underline-from-center" href="/">EN</a></span>
+				<span class="footer-span"><a class="hvr-underline-from-center" href="/">MENTIONS LEGALES</a></span>
+				<span class="footer-span"><a class="hvr-underline-from-center" href="/">JOBS</a></span>
+				<span class="footer-span"><a class="hvr-underline-from-center" href="https://www.facebook.com/Slidor" target="_blank"><img src="img/f.svg" class="socialic" alt="Like us on Facebook" /></a></span>
+				<span class="footer-span"><a class="hvr-underline-from-center" href="https://twitter.com/slidor_fr" target="_blank"><img src="img/twi.svg" class="socialic" alt="Follow us on Twitter" /></a></span>
+				<span class="footer-span"><a class="hvr-underline-from-center" href="https://plus.google.com/+SlidorFr/about" target="_blank"><img src="img/gplus.svg" class="socialic" alt="Follow us on Google+" /></a></span>
+			</div>
+		</footer>
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+	<script src="js/jQueryRotateCompressed.js"></script>
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Plugin JavaScript -->
+    <script src="js/jquery.easing.min.js"></script>
+    <!-- Custom Theme JavaScript -->
+    <script src="js/slidor.js"></script>
+
+</body>
+
+</html>
